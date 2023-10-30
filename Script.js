@@ -1,0 +1,12 @@
+gsap.to(".felem",{
+    scrollTrigger:{
+        trigger: ".feaImages",
+        pin: true,
+        start: "top top",
+        end: "bottom bottom",
+        endTrigger: ".last",
+        scrub: 1
+    },
+    y: "-300%",
+    ease: Power1
+})

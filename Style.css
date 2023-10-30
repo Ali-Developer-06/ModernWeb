@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+/* navbar styling */
+.navbar{
+    width: 100%;
+    height: 70px;
+    padding: 0 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>img{
+    width: 120px;
+    margin: 0 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul i{
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+/* head styling */
+
+.head{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+.headText{
+    padding: 0 10vw;
+}
+.headHeading{
+    display: flex;
+    gap: 20px;
+}
+.headHeading>h1{
+    font-size: 81px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+.headHeading h1:hover{
+    color: #000;
+}
+
+/* digitalAgen styling */
+
+.digitalAgen{
+    padding: 0 10vw;
+    width: 58%;
+}
+.digitalAgen p{
+    font-weight: 600;
+    font-size: 17px;
+}
+.digitalAgen p::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+/* feature styling */
+
+.feature{
+    padding: 5vw 10vw;
+}
+.feaHeading h1{
+    font-size: 50px;
+}
+.feaHeading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+.feaHeading h1:nth-child(2):hover{
+    color: #000;
+}
+
+.feaImages{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.feaImages>.fleft{
+    width: 45%;
+    overflow: hidden;
+    height: inherit;
+}
+.fleft>.felem{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0 2vw;
+    flex-direction: column;
+    justify-content: center;
+}
+.felem h3{
+    font-weight: 600;
+}
+.felem h1{
+    margin: 1vw 0;
+    font-weight: 500;
+}
+.felem h4{
+    opacity: .5;
+}
+.feaImages>.fright{
+    width: 45%;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: flex-end;
+}
+.fright>.fimages{
+    width: 85%;
+    height: 90%;
+}
+.fright>.fimages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btndiv button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    background-color: #fff;
+    text-transform: capitalize;
+    border: 1.5px solid rgba(128, 128, 128, 0.349);
+}
+
+/* development styling */
+
+.devContent{
+    width: 60%;
+    padding: 0 10vw;
+}
+.devContent h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.devContent p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 3vw 0;
+}
+.devImages{
+    width: 100%;
+    display: flex;
+    padding: 2vw 5vw;
+    justify-content: space-between;
+}
+.devImages>.devImg{
+    width: 30%;
+}
+.devImages>.devImg>img{
+    width: 100%;
+    height: 225px;
+    border-radius: 3px;
+}
+.devImg h6{
+    margin: 15px 10px;
+    padding: .8vw 2vw;
+    width: fit-content;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.06);
+    border: 1px solid rgba(128, 128, 128, 0.349);
+}
+.devImg h3{
+    font-weight: 600;
+}
+
+/* new day styling */
+
+.newDay{
+    width: 100%;
+    padding: 5vw 3vw 5vw 10vw;
+}
+.newDay>.dayHeading{
+    width: 30%;
+    font-size: 50px;
+    font-weight: 500;
+}
+.newDayImages{
+    width: 100%;
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+.newDayImages>.newImage{
+    width: 23%;
+}
+.newDayImages>.newImage img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.newDayImages>.newImage:hover{
+    background-color: rgba(128, 128, 128, 0.123);
+    cursor: pointer;
+}
+.newImage h4{
+    padding: 1vw 0;
+}
+
+/* footer styling */
+
+footer{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10vw;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+}
+footer .heading{
+    padding: 8vw 0;
+}
+footer .heading h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+footer .heading h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+.contact{
+    display: flex;
+}
+.cont-1{
+    width: 25%;
+}
+footer> .contact> .cont-1 p:nth-child(1){
+    padding: 2vw 0;
+    font-weight: 600;
+}
+footer> .contact> .cont-1 p:nth-child(2){
+    width: 80%;
+}
+footer> .contact> .cont-1 p:nth-child(3){
+    padding: 1vw 0;
+}
+.cont-2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 20vw;
+    flex-direction: column;
+}
+.links-1{
+    display: flex;
+    align-items: center;
+}
+.links-1 p{
+    padding: 3vw 5vw 3vw 5vw;
+}
+.links-2{
+    display: flex;
+    align-items: center;
+}
+.links-2 p{
+    padding: 1vw 4.8vw;
+}
